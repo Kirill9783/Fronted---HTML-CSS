@@ -1,0 +1,23 @@
+.product-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 70px;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-list__item {
+    width: 100%;
+}
+
+.product-list--vertical {
+    gap: 30px;
+    margin: 0;
+    flex-direction: row;
+}
+
+.product-list--vertical .product-list__item {
+    width: calc(33.33% - (60px/3));
+}

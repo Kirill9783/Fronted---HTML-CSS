@@ -1,0 +1,99 @@
+.choice-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    min-height: 900px;
+    background-color: #FFFFFF;
+    padding: 35px 31px 23px;
+    border-radius: 28px;
+    border: 1px solid #E2E4E8
+}
+
+.choice-card__form {
+    margin-top: auto;
+}
+
+.choice-card__title {
+    font-weight: 700;
+    margin: 0 0 29px;
+    font-size: 28px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.choice-card__title--hit::after {
+    content: "Хит продаж";
+    flex-shrink: 0;
+    background-image: linear-gradient(90deg, #537CCB 0%, #9648BD 100%);
+    padding: 6px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    width: 109px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.choice-card__included {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style-type: none;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    display: grid;
+    grid-template-columns: 1fr 105px 1fr;
+    justify-content: center;
+}
+
+.choice-card__included-item-border {
+    display: flex;
+    gap: 30px;
+}
+
+.choice-card__included-item-border--wide {
+    gap: 23px;
+}
+
+.choice-card__included-item-border::before {
+    content: "";
+    border-right: 2px solid #999899;
+    height: 34px;
+    margin: 7px 0 0 0;
+}
+
+.choice-card__included-item-border::after {
+    content: "";
+    border-right: 2px solid #999899;
+    height: 34px;
+    margin: 7px 0 0 0;
+}
+
+.choice-card__advantages {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.choice-card__link {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+    color: #259DD6;
+    width: fit-content;
+    margin: 0 0 27px;
+}
+
+.choice-card__link:hover {
+    color: #9D1881;
+}

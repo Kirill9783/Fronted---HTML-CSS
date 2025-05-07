@@ -1,0 +1,21 @@
+.placement {
+    padding-bottom: 100px;
+}
+
+.placement__title {
+    margin: 0 auto 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    width: 520px;
+}
+
+.placement__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}

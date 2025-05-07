@@ -1,0 +1,31 @@
+.custom-textarea {
+    position: relative;
+    width: 460px;
+}
+
+.custom-textarea__field {
+    font-size: 16px;
+    line-height: 20px;
+    color: #5A5A5A;
+    width: 100%;
+    min-height: 114px;
+    padding: 24px 0 0 0;
+    border: none;
+    border-bottom: 1px solid #C8C8CA;
+    resize: none;
+}
+
+.custom-textarea__field:focus-visible {
+    outline: 1px solid rgba(60, 82, 230, 0.5);
+    outline-offset: 3px;
+}
+
+.custom-textarea__label {
+    font-size: 12px;
+    line-height: 14px;
+    color: #99999E;
+    user-select: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,13 @@
+.advantages-card {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 204px;
+}
+
+.advantages-card__description {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 130%;
+}

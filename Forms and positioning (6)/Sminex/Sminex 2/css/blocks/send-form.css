@@ -1,0 +1,19 @@
+.send-form {
+    display: grid;
+}
+
+.send-form___group {
+    border: none;
+    padding: 0;
+    margin: 0 0 48px;
+}
+
+.send-form__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px 40px;
+}
+
+.send-form__btn {
+    margin: 0 auto;
+}

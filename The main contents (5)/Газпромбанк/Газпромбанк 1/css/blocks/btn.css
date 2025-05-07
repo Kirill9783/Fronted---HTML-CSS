@@ -1,0 +1,55 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #476BF0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Noto Sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.btn--size-xl {
+  padding: 18px;
+  width: 224px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.btn--size-middle {
+  padding: 16px;
+}
+
+.btn--size-middle svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.btn--size-small {
+  padding: 10px;
+  height: 40px;
+}
+
+.btn--size-small svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.btn--size-small-orange {
+  background-color: #FF8516;
+  padding: 10px;
+  height: 40px;
+}
+
+.btn--size-small-orange svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

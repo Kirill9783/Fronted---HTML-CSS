@@ -1,0 +1,10 @@
+.special-offers__title {
+    margin: 0 0 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.special-offers__wrapper {
+    margin: 0 0 100px;
+}

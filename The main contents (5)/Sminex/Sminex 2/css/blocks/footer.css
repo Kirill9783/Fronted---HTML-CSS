@@ -1,0 +1,101 @@
+.footer {
+    background-color: #23252E;
+    padding: 40px 0 28px;
+}
+
+.footer__wrapper {
+    display: grid;
+    gap: 44px;
+}
+
+.footer__top-social {
+    display: grid;
+    gap: 15px;
+}
+
+.footer__top {
+    display: grid;
+    grid-template-columns: 1fr 140px 1fr;
+    gap: 20px;
+}
+
+.footer__top-left {
+    display: grid;
+    gap: 12px;
+}
+
+.footer__name {
+    font-family: 'Foros', "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer_address {
+    font-family: 'Foros', "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer__link {
+    font-family: 'Foros', "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.footer__top-right {
+    display: grid;
+    gap: 56px;
+    text-align: right;
+}
+
+.footer__phone-link {
+    font-family: 'Foros', "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer__top-social-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    justify-content: center;
+}
+
+.footer__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 56px;
+}
+
+.footer__nav-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer__bottom {
+    display: grid;
+    gap: 28px;
+    grid-template-columns: 800px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer__bottom-copyright {
+    margin: 0;
+    font-family: 'Foros', "Arial", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}

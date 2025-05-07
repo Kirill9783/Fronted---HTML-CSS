@@ -1,0 +1,43 @@
+.registration__wrapper {
+    display: grid;
+    grid-template-columns: 450px 500px;
+    gap: 80px;
+    align-items: start;
+    padding: 20px 20px 40px 177px;
+    margin: 0 auto;
+}
+
+.registration__inner {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 0 2px 24px 0 #7F225505;
+    margin: 0 0 32px;
+}
+
+.registration__title {
+    margin: 0 0 28px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E222E;
+    text-align: center;
+}
+
+.registration__title--right {
+    margin: 0 0 32px;
+}
+
+.registration__link {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #476BF0;
+}
+
+.registration__right {
+    margin: auto 0;
+    position: sticky;
+    top: 90px;
+}

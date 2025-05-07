@@ -1,0 +1,106 @@
+.crewman-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #F2F3EE;
+    padding: 30px;
+    min-height: 463px;
+    height: 100%;
+}
+
+.crewman-card__top {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 0 20px;
+}
+
+.crewman-card__post {
+    color: #1D252D;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.crewman-card__name {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1D252D;
+}
+
+.crewman-card__middle {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    height: 100%;
+}
+
+.crewman-card__photo {
+    width: 220px;
+    height: 330px;
+    border-radius: 12px;
+}
+
+.crewman-card__inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 330px;
+    gap: 20px;
+}
+
+.crewman-card__worth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.crewman-card__blockquote {
+    margin: 0;
+}
+
+.crewman-card__quote {
+    margin: 0;
+    color: #1D252D;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.crewman-card__experience {
+    text-align: right;
+    color: #1D252D;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.crewman-card__links {
+    display: flex;
+    margin: auto 0 0;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.crewman-card__link {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 40px;
+    width: calc(50% - 5px);
+}
+
+.crewman-card__link--secondary {
+    background-color: #D6D2C4;
+}
+
+.crewman-card__quote--center {
+    text-align: center;
+}
+
+.crewman-card__experience--center {
+    text-align: center;
+}

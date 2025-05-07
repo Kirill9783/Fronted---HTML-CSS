@@ -1,0 +1,20 @@
+.application-list {
+    display: grid;
+    gap: 40px;
+    padding: 100px 0 0 0;
+    margin: 0 0 100px;
+    list-style-type: none;
+}
+
+.application-list--partners {
+    grid-template-columns: repeat(2, 600px);
+    margin: 0;
+}
+
+.application-list--partners .card-application {
+    border-radius: 16px;
+}
+
+.application-item--wide {
+    grid-column: span 2;
+}

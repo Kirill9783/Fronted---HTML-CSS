@@ -1,0 +1,120 @@
+.card-application {
+  display: flex;
+  align-items: center;
+  column-gap: 85px;
+  border-radius: 10px;
+  background-color: #A8DCFF;
+}
+
+.card-application--reverse {
+  flex-direction: row-reverse;
+}
+
+.card-application--small, .card-application--right {
+  flex-direction: column-reverse;
+  min-height: 640px;
+  height: 100%;
+}
+
+.card-application__image {
+  width: 588px;
+  height: 520px;
+}
+
+.card-application--small .card-application__image {
+  width: 600px;
+  height: 324px;
+  margin: auto 0 0 0;
+}
+
+.card-application--right .card-application__image {
+  width: 600px;
+  height: 324px;
+  margin: auto 0 0 0;
+}
+
+.card-application--reverse .card-application__content {
+  padding: 100px 0 100px 140px;
+}
+
+.card-application--small .card-application__content {
+  padding: 60px 60px 72px;
+}
+
+.card-application--right .card-application__content {
+  padding: 60px 60px 72px;
+}
+
+.card-application--heavenly {
+  background-color: #A8DCFF;
+}
+
+.card-application--purple {
+  background-color: #8CA3FF;
+}
+
+.card-application--blue {
+  background-color: #5E81FF;;
+}
+
+.card-application--grey {
+  background-color: #7F8499;
+}
+
+.card-application--F4F6FA {
+  background-color: #F4F6FA;
+}
+
+.card-application__content {
+  padding: 90px 140px 90px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-application__heading {
+  font-weight: 700;
+  margin: 0 0 25px 0;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.card-application--small .card-application__heading {
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+
+.card-application--right .card-application__heading {
+  margin: 0 0 20px 0;
+}
+
+.card-application--blue .card-application__heading {
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+
+.card-application__list {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style-type: circle;
+  gap: 16px;
+  display: grid;
+}
+
+.card-application__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.card-application--small .card-application__description {
+  color: #FFFFFF;
+}
+
+.card-application--blue .card-application__description {
+  color: #FFFFFF;
+}
+
+.card-application__btn {
+  margin: 35px 0 0 0;
+}

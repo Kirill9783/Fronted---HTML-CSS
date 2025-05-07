@@ -1,0 +1,35 @@
+.btn {
+    padding: 18px;
+    width: 320px;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 20px;
+    border-radius: 40px;
+    border: 1px solid #D6D2C4;
+    background-color: #D6D2C4;
+    color: #1D252D;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #1D252D;
+    color: #FFFFFF;
+}
+
+.btn:focus-visible {
+    color: #FFFFFF;
+    background-color: #0E1114;
+}
+
+.btn[disabled] {
+    color: rgba(29, 37, 45, 0.5);
+    border: 1px solid rgba(214, 210, 196, 0.5);
+    background-color: rgba(214, 210, 196, 0.5);
+}
+
+.btn--cookie {
+    padding: 9px;
+    font-size: 12px;
+    line-height: 14px;
+}

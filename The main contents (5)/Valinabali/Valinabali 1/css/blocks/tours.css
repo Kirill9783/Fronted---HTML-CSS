@@ -1,0 +1,17 @@
+.tours {
+    display: flex;
+    flex-direction: column;
+}
+
+.tours__card-list {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 380px 320px 380px;
+    gap: 20px;
+}
+
+.tours__card-item--wide {
+    grid-column: span 2;
+}

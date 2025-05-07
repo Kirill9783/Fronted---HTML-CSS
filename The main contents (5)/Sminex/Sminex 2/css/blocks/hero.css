@@ -1,0 +1,68 @@
+.hero {
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__wrapper {
+    display: grid;
+    grid-template-columns: 540px 640px;
+    align-items: center;
+    margin: 0 0 0 60px;
+}
+
+.hero__inner {
+    display: grid;
+    gap: 32px;
+}
+
+.hero__where {
+    display: grid;
+}
+
+.hero__position {
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.hero__conditions {
+    margin: 0 0 28px 0;
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 32px;
+}
+
+.hero__rate {
+    display: grid;
+    gap: 4px;
+    padding: 16px 14px 14px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    align-content: space-between;
+}
+
+.hero__rate-text {
+    color: #3C52E6;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.hero__rate-number {
+    color: #3C52E6;
+    font-size: 44px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.1em;
+}
+
+.hero__conditions-list {
+    margin: 0;
+    padding: 0 0 0 21px;
+}
+
+.hero__conditions-description {
+    font-size: 16px;
+    line-height: 18px;
+}

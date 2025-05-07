@@ -1,0 +1,48 @@
+.about-finance__wrapper {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px 128px;
+    padding: 50px 0 40px 0;
+}
+
+.about-finance__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.about-finance__share {
+    grid-row: 3 / 4;
+    margin: 0 0 -8px 0;
+}
+
+.about-finance__social {
+    margin: 0 0 4px 0;
+    padding: 0;
+    grid-row: 4 / 5;
+}
+
+.about-finance__copyright {
+    grid-row: 5 / 6;
+    margin: 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+}
+
+.about-finance__cards-list {
+    grid-column: 2 / 3;
+    grid-row: span 6;
+    grid-template-columns: repeat(2, 340px);
+    gap: 40px 32px;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.about-finance__cards-item--wide {
+    grid-column: span 2;
+}
+

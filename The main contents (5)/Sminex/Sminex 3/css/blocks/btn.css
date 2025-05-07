@@ -1,0 +1,11 @@
+.btn {
+    font-family: "Montserrat", "Arial", sans-serif;
+    color: #FFFFFF;
+    padding: 11px;
+    border: 2px solid #FFFFFF;
+    font-size: 13px;
+    line-height: 16px;
+    width: 165px;
+    background-color: transparent;
+    border-radius: 60px;
+}

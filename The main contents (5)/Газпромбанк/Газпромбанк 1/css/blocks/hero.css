@@ -1,0 +1,42 @@
+.hero {
+    background-color: #F4F6FA;
+    padding: 70px 0;
+    margin: 0 0 100px;
+    min-height: calc(100vh - 88px);
+    display: flex;
+    align-items: center;
+}
+
+.hero__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 564px;
+    gap: 56px;
+    align-items: center;
+}
+
+.hero__inner {
+    display: grid;
+    gap: 48px;
+}
+
+.hero__text {
+    display: grid;
+    gap: 24px;
+}
+
+.hero__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.hero__slogan {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hero__btns {
+    display: flex;
+    gap: 16px;
+}

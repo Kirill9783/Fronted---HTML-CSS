@@ -1,0 +1,12 @@
+.reviews {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.reviews__item {
+    width: calc(33.33% - (60px/3));
+}

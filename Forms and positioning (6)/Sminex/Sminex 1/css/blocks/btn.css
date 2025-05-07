@@ -1,0 +1,50 @@
+.btn {
+  padding: 13px 27px;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 20px;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 50%);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn--secondary {
+  background-color: #23252E;
+  border: 1px solid transparent;
+}
+
+.btn--send {
+  background-color: #3C52E6;
+  padding: 20px;
+  border: none;
+  width: 200px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.btn--send[disabled] {
+  background-color: rgba(60, 82, 230, 0.5);
+}
+
+.btn--close {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #3C52E6;
+  border: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.btn--close:focus-visible {
+  outline: 1px solid rgba(60, 82, 230, 0.5);
+  outline-offset: 3px;
+}

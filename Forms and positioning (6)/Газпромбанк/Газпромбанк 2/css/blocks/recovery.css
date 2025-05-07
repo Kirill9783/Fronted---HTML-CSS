@@ -1,0 +1,22 @@
+.recovery__wrapper {
+    padding: 156px 0 184px;
+    margin: 0 auto;
+    width: 450px;
+}
+
+.recovery__inner {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 2px 24px 0 rgba(127, 34, 85, 0.02);
+}
+
+.recovery__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E222E;
+    margin: 0 0 32px;
+    text-align: center;
+}

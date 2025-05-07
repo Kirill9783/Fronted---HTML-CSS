@@ -1,0 +1,12 @@
+.crew {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.crew__item {
+    width: calc(50% - (30px/2));
+}

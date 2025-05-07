@@ -1,0 +1,30 @@
+.tariff {
+    padding: 40px 0 100px;
+}
+
+.tariff__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.tariff__title:hover {
+    color: #259DD6;
+}
+
+.tariff__title-link {
+    color: #259DD6;
+}
+
+.tariff__choice-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 16px;
+}

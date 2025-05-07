@@ -1,0 +1,15 @@
+.checkbox-list {
+    margin: 0 0 40px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 28px;
+}

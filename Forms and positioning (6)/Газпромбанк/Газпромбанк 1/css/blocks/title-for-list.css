@@ -1,0 +1,16 @@
+.title-for-list {
+    margin: 0 0 28px;
+    position: relative;
+    padding: 0 0 0 28px;
+    font-weight: 300;
+    color: #000000;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.title-for-list__icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

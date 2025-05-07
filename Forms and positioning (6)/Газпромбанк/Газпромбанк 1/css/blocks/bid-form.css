@@ -1,0 +1,51 @@
+.bid-form___group {
+    border: none;
+    padding: 0;
+    margin: 0 0 40px;
+}
+
+.bid-form___group-name {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #000000;
+    margin: 0 0 60px;
+}
+
+.bid-form___group--radio .bid-form___group-name {
+    margin: 0 0 28px;
+}
+
+.bid-form__inner--radio .bid-form___group-name {
+    margin: 0 0 28px;
+}
+
+.bid-form__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 80px;
+}
+
+.bid-form___group--radio .bid-form__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.bid-form__btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.bid-form__link-up {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F6F6F6;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 120px;
+    bottom: 420px;
+}

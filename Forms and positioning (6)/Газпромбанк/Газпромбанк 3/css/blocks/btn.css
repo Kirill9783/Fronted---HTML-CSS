@@ -1,0 +1,70 @@
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 18px;
+    font-family: "Noto Sans", "Arial", sans-serif;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    border-radius: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn--try {
+    background-image: linear-gradient(270deg, #537CCB 0%, #13AED7 100%);
+}
+
+.btn--try:hover,
+.btn--try:hover {
+    background-image: none;
+    background-color: #537CCB;
+}
+
+.btn--act {
+    background-image: linear-gradient(270deg, #9548BD 0%, #547CCB 100%);
+}
+
+.btn--act:hover,
+.btn--act:hover{
+    background-image: none;
+    background-color: #9548BD;
+}
+
+.btn--win {
+    background-image: linear-gradient(270deg, #D812AE 0%, #9548BD 100%);
+}
+
+.btn--win:hover,
+.btn--win:hover {
+    background-image: none;
+    background-color: #D812AE;
+}
+
+.btn--order {
+    padding: 12px;
+    width: 131px;
+    border: none;
+    cursor: pointer;
+    background-color: #239DD6;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+
+.btn__order:hover {
+    background-color: #9D1881;
+}
+
+.btn__order:focus-visible {
+    background-color: #771061;
+}
+
+.btn__order[disabled] {
+    background-color: #F0F0F0;
+    color: #858385;
+}

@@ -1,0 +1,66 @@
+.candidate-checkbox {
+    margin: 0 auto 20px;
+}
+
+.candidate-checkbox__field:hover + .candidate-checkbox__label::before  {
+    border-color: #1D252D;
+}
+
+.candidate-checkbox__field:hover ~ .candidate-checkbox__label .candidate-checkbox__label-link  {
+    color: rgba(29, 37, 45, 0.5);
+}
+
+.candidate-checkbox__field:checked + .candidate-checkbox__label::before {
+    background-color: #D6D2C4;
+}
+
+.candidate-checkbox__field:checked + .candidate-checkbox__label .candidate-checkbox__icon {
+    display: block;
+}
+
+.candidate-checkbox__field:focus-visible + .candidate-checkbox__label::before  {
+    border-color: #1D252D;
+}
+
+.candidate-checkbox--error .candidate-checkbox__field + .candidate-checkbox__label::before {
+    border-color: #E80E0A
+}
+
+.candidate-checkbox__label {
+    position: relative;
+    padding: 0 0 0 30px;
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+}
+
+.candidate-checkbox__label::before {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #D6D2C4;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    left: 0;
+}
+
+.candidate-checkbox__heading {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D252D;
+}
+
+.candidate-checkbox__label-link {
+    color: #1D252D;
+    text-decoration: underline;
+}
+
+.candidate-checkbox__icon {
+    color: #1D252D;
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}

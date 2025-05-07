@@ -1,0 +1,20 @@
+/* Global */
+
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+
+@import "blocks/header.css";
+@import "blocks/vacancies.css";
+@import "blocks/vacancies-list.css";
+@import "blocks/send-resume.css";
+@import "blocks/send-form.css";
+@import "blocks/candidate-input.css";
+@import "blocks/candidate-checkbox.css";
+@import "blocks/btn.css";
+@import "blocks/cookie.css";
+@import "blocks/footer.css";
+

@@ -1,0 +1,31 @@
+.custom-input {
+    width: 280px;
+    position: relative;
+}
+.custom-input__field {
+    width: 100%;
+    min-height: 54px;
+    border: none;
+    border-bottom: 1px solid #C8C8CA;
+    padding: 24px 0 10px 0;
+    color: #5A5A5A;
+}
+
+.custom-input__field:focus-visible {
+    outline: 1px solid rgba(60, 82, 230, 0.5);
+    outline-offset: 3px;
+}
+
+.custom-input__field::placeholder {
+    color: #99999E;
+}
+
+.custom-input__label {
+    font-size: 12px;
+    line-height: 14px;
+    color: #99999E;
+    user-select: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,89 @@
+.custom-radio {
+    position: relative;
+    width: 276px;
+}
+
+.custom-radio__field:checked + .custom-radio__label::before {
+    border: none;
+    background-color: #259DD6;
+}
+
+.custom-radio__field:checked + .custom-radio__label .custom-radio__jackdaw-icon {
+    display: block;
+}
+
+.custom-radio__field:checked + .custom-radio__label {
+    border: 2px solid #259DD6;
+}
+
+.custom-radio__field:hover + .custom-radio__label {
+    border: 2px solid #259DD6;
+}
+
+.custom-radio__field:focus-visible + .custom-radio__label {
+    border: 2px solid #259DD6;
+}
+
+.custom-radio__label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 2px solid #E2E4E8;
+    padding: 11px 15px 15px;
+    border-radius: 20px;
+}
+
+.custom-radio__label--second {
+    gap: 8px;
+}
+
+.custom-radio__label::before {
+    content: "";
+    border: 2px solid #259DD6;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.custom-radio__top {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 2px;
+    align-items: center;
+}
+
+.custom-radio__sum {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.custom-radio__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.custom-radio__more {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.custom-radio__sum-small {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.custom-radio__jackdaw-icon {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    display: none;
+    color: #FFFFFF;
+}

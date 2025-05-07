@@ -1,0 +1,45 @@
+.payment {
+    padding-bottom: 100px;
+}
+
+.payment__title {
+    margin: 0 0 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.payment__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    gap: 40px;
+}
+
+.payment__item {
+    display: grid;
+    justify-items: center;
+}
+
+.payment__icon {
+    margin: 0 0 20px;
+}
+
+.payment__card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 12px;
+}
+
+.payment__card-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696E82;
+    text-align: center;
+}

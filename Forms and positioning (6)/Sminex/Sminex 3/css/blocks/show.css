@@ -1,0 +1,22 @@
+.show {
+    position: absolute;
+    top: 350px;
+    right: -180px;
+    z-index: 10;
+}
+
+.show__icon {
+    position: absolute;
+    top: 12px;
+    left: -7px;
+    color: #FFFFFF;
+}
+
+.show__btn:hover {
+    background-color: #AD8361;
+    color: #FFFFFF;
+}
+
+.show__btn:hover .show__icon {
+    color: #AD8361;
+}

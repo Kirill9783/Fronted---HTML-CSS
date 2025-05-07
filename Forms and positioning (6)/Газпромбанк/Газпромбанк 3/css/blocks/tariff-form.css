@@ -1,0 +1,9 @@
+.tariff-form__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tariff-form__button {
+    margin: 20px 0 0;
+}

@@ -1,0 +1,26 @@
+.included-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.included-card--one {
+    margin-right: 20px;
+}
+
+.included-card--three {
+    margin-left: 15px;
+}
+
+.included-card__number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.included-card__text {
+    font-size: 14px;
+    line-height: 130%;
+}

@@ -1,0 +1,33 @@
+.card-placement__img {
+    background-image: url("../../images/fns-img.png");
+    min-height: 326px;
+    background-color: #F6F6F6;
+    border-radius: 16px;
+    margin: 0 0 20px;
+}
+
+.card-placement__img--sogaz {
+    background-image: url("../../images/sogaz-img.png");
+}
+
+.card-placement__img--ntv {
+    background-image: url("../../images/ntv-img.png");
+}
+
+.card-placement__img--gosuslugi {
+    background-image: url("../../images/gosuslugi.png");
+}
+
+.card-placement__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 8px;
+}
+
+.card-placement__text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696E82;
+}

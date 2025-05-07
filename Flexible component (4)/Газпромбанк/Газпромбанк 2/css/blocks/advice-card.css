@@ -1,0 +1,88 @@
+.advice-card {
+    display: flex;
+    background-image: url("../../images/background1.jpg");
+    background-color: #415BD2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    flex-direction: column;
+    padding: 20px 20px 32px;
+    height: 100%;
+    min-height: 480px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.advice-card__head {
+    display: flex;
+    align-items: center;
+}
+
+.advice-card__avatar {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px 0 0;
+}
+
+.advice-card__title {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.advice-card__foot {
+    margin: auto 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.advice-card__context {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 20px;
+    color: #FFFFFF;
+}
+
+.advice-card__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #476BF0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 14px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.advice-card--rating {
+    background-image: url("../../images/background2.jpg");
+}
+
+.advice-card--gold {
+    background-image: url("../../images/background3.jpg");
+}
+
+.advice-card--tax-deduction {
+    background-image: url("../../images/background4.jpg");
+}
+
+.advice-card--sbp {
+    background-image: url("../../images/background5.jpg");
+}
+
+.advice__card--leave {
+    background-image: url("../../images/background6.jpg");
+}
+
+.advice-card--balance {
+    background-image: url("../../images/background7.jpg");
+}
+
+.advice-card--load {
+    background-image: url("../../images/background8.jpg");
+}

@@ -1,0 +1,51 @@
+.card-bottom {
+    display: flex;
+    min-height: 160px;
+    height: 100%;
+    justify-items: center;
+    border-radius: 24px;
+    background-image: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
+    padding: 30px 30px 20px;
+    gap: 40px;
+}
+
+.card-bottom__text {
+    display: grid;
+    gap: 20px;
+}
+
+.card-bottom__description {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.card-bottom-review {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-right: auto;
+    gap: 15px;
+}
+
+.card-bottom__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card-bottom__link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card-bottom__img {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}

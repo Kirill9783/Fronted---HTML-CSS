@@ -1,0 +1,30 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin: 0 0 30px 0;
+}
+
+.reviews__card-list {
+    margin: 0 0 80px 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 350px 350px 380px;
+    grid-template-rows: 352px 160px;
+    gap: 20px;
+}
+
+.reviews__card-item--high {
+    grid-row: span 2;
+}
+
+.reviews__card-item--wide {
+    grid-column: span 2;
+}

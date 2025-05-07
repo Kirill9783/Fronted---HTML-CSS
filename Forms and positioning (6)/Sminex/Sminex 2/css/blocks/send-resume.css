@@ -1,0 +1,26 @@
+.send-resume {
+    padding: 0 0 120px;
+}
+
+.send-resume__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 48px;
+}
+
+.send-resume__title {
+    margin: 0;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.send-resume__promise {
+    margin: 0;
+    width: 280px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+}

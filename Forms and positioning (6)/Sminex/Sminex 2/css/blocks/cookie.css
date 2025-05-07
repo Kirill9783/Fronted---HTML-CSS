@@ -1,0 +1,43 @@
+.cookie {
+    width: 360px;
+    min-height: 150px;
+    background-color: #1D252D;
+    padding: 26px 26px 16px;
+    position: fixed;
+    right: 20px;
+    bottom: 252px;
+    display: none;
+    z-index: 10;
+}
+
+.cookie--active {
+    display: block;
+}
+
+.cookie__text {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 0 0 16px 0;
+}
+
+.cookie__link {
+    text-decoration: underline;
+}
+
+.cookie__link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cookie__btn {
+    width: 100%;
+}
+
+.cookie__close {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}

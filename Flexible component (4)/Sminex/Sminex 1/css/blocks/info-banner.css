@@ -1,0 +1,43 @@
+.info-banner {
+    margin: 0 0 120px;
+    background-image: url("../../images/banner-img.jpg");
+    background-color: #1D252D;
+    display: flex;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding: 85px 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-banner__title {
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 48px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.info-banner__inner {
+    width: 460px;
+    text-align: right;
+}
+
+.info-banner__text {
+    margin: 0 0 30px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.info-banner__link {
+    width: 220px;
+    border-radius: 40px;
+    background-color: #D6D2C4;
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1D252D;
+    display: inline-block;
+}

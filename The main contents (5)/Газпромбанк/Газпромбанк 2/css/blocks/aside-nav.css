@@ -1,0 +1,43 @@
+.aside-nav {
+    grid-row: 2 / 3;
+    margin: 0 0 40px 0;
+}
+
+.aside-nav__select {
+    font-size: 18px;
+    line-height: 24px;
+    color: #696E82;
+    display: block;
+    margin: 0 0 48px 0;
+}
+
+.aside-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    gap: 16px;
+}
+
+.aside-nav__link {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.aside-nav__link-img {
+    border-radius: 8px;
+}
+
+.aside-nav__link-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.about-finance__share {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+}

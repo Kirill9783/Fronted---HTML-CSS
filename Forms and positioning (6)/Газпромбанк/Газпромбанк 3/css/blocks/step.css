@@ -1,0 +1,43 @@
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.step__number {
+    padding: 4px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: #F0F0F0;
+    width: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #858385;
+}
+
+.step--check .step__number {
+    background-color: #239DD6;
+    color: #FFFFFF;
+}
+
+.step__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 115%;
+    color: #858385;
+}
+
+.step--check .step__text {
+    color: #343033;
+}
+
+.step__icon {
+    position: absolute;
+    top: 24px;
+    left: 138px;
+}
+

@@ -1,0 +1,15 @@
+.social {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEEEF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

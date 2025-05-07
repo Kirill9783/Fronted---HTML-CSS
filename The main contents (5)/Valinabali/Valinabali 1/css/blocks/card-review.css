@@ -1,0 +1,78 @@
+.card-review {
+    background-color: #E0E5FA;
+    padding: 20px;
+    min-height: 332px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    border-radius: 24px;
+}
+
+.card-review--bg-d2e8e5 {
+    background-color: #D2E8E5;
+}
+
+.card-review--bg-e0effa {
+    background-color: #E0EFFA;
+    min-height: 512px;
+}
+
+.card-review--bg-gradient {
+    background-image: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
+    min-height: 160px;
+    padding: 30px 30px 20px;
+    gap: 40px;
+    display: flex;
+}
+
+.card-review__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #9E5FC4
+}
+
+.card-review__inner {
+    display: grid;
+    justify-items: center;
+}
+
+.card-review__city {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #9E5FC4;
+    text-align: center;
+}
+
+.card-review__country {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #242424;
+    text-align: center;
+}
+
+.card-review__description {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card-review__link {
+    margin: auto 0 0;
+}
+
+.card-review__about {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

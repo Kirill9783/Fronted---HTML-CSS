@@ -1,0 +1,65 @@
+.vacancies {
+    padding: 40px 0 120px;
+}
+
+.vacancies__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 40px;
+    border-bottom: 1px solid #D6D2C4;
+}
+
+.vacancies__title {
+    margin: 0;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #1D252D;
+}
+
+.vacancies__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.vacancies__department {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 0 5px;
+}
+
+.vacancies__contact {
+    margin: 0 0 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.vacancies__contact-link {
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D252D;
+}
+
+.vacancies__contact-link:not(:last-of-type) {
+    border-right: 1px solid #1D252D;
+    padding-right: 10px;
+}
+
+.vacancies__contact-link:hover {
+    text-decoration: underline;
+}
+
+.vacancies__send-resume {
+    font-size: 14px;
+    line-height: 18px;
+    color: #1D252D;
+    text-decoration: underline;
+}
+
+.vacancies__send-resume:hover {
+    color: rgba(29, 37, 45, 0.5);
+
+}

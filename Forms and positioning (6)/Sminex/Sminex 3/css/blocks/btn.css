@@ -1,0 +1,61 @@
+.btn-filter {
+    padding: 29px;
+    width: 210px;
+    height: 90px;
+    border-radius: 0 0 0 20px;
+    background-color: #F3F3F3;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-filter--right {
+    border-radius: 0 0 20px 0;
+    background-color: #FFFFFF;
+}
+
+.btn-show {
+    padding: 12px;
+    width: 156px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #AD8361;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-show:hover {
+    background-color: #AD8361;
+    color: #FFFFFF;
+}
+
+.btn-submit {
+    padding: 12px;
+    width: 100%;
+    border-radius: 60px;
+    border: 1px solid #AD8361;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #AD8361;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-submit:hover,
+.btn-submit:focus-visible {
+    background-color: #AD8361;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.btn-submit[disabled] {
+    background-color: rgba(243, 243, 243, 0.5);
+    border: 1px solid rgba(173, 131, 97, 0.5);
+    color: rgba(173, 131, 97, 0.5);
+    cursor: unset;
+}

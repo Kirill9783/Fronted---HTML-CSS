@@ -1,0 +1,22 @@
+.header {
+    padding: 12px 0 20px;
+    background-image: linear-gradient(90deg, #415BD2 0%, #8DA1F7 100%);
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__bottom-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__bottom-buttons {
+    display: flex;
+    gap: 12px;
+}

@@ -1,0 +1,50 @@
+.advantages {
+    padding: 80px 0 80px;
+}
+
+.advantages__link {
+    display: grid;
+    gap: 16px;
+}
+
+.advantages__link-title {
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    color: #204186;
+}
+
+.advantages__link-text {
+    margin: 16px 0 80px;
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #204186;
+}
+
+.advantages__content {
+    display: grid;
+    grid-template-columns: 420px 360px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 220px;
+}
+
+.advantages__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    gap: 36px;
+}
+
+.advantages__item {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
