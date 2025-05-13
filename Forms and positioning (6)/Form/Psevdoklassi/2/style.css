@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", sanf-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* ВАРИАЦИИ CHILD */
+.first-child__item:first-child {
+    background-color: #00DFA2;
+}
+
+.last-child__item:last-child {
+    background-color: #00DFA2;
+}
+
+.nth-child__item:nth-child(3) {
+    background-color: #00DFA2;
+}
+
+.even-child__item:nth-child(even) {
+    background-color: #00DFA2;
+}
+
+.odd-child__item:nth-child(odd) {
+    background-color: #00DFA2;
+}
+
+.nth-child-formula__item:nth-child(-n+3) {
+    background-color: #00DFA2;
+}
+
+.nth-child-formula__item:hover {
+    background-color: #A9A9A9;
+}
+
+.nth-child-formula__item:nth-child(-n+3):hover {
+    background-color: #00BA87;
+}
+
+/* СПИСОК */
+.rating {
+    width: 300px;
+}
+
+.rating__list {
+    border: 1px solid #000000;
+    padding: 0;
+}
+
+.rating__item {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background: #FFFFFF;
+    border-radius: 0;
+}
+
+/* BORDER none :last-child */
+/* .rating__item {
+  border-bottom: 2px solid #DEDEDE;
+}
+
+.rating__item:last-child {
+  border-bottom: none;
+} */
+
+/* BORDER :not */
+.rating__item:not(:last-child) {
+    border-bottom: 2px solid #DEDEDE;
+}
+
+/* COLOR */
+.rating__item:first-child {
+    background-color: #053B50;
+    border-color: #003245;
+    color: #FFFFFF;
+}
+
+.rating__item:nth-child(2) {
+    background-color: #176B87;
+    border-color: #005775;
+    color: #FFFFFF;
+}
+
+.rating__item:nth-child(3) {
+    background-color: #64CCC5;
+    border-color: #27B7AD;
+}
