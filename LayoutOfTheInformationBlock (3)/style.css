@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    padding: 60px 30px;
+}
+
+.banner-intro {
+    background-color: #cccccc;
+    padding: 60px 20px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    /*   background-image: url("https://i.ibb.co/MPJ4Vr3/cat-bg.png"); */
+    /*   background-image: url("https://i.ibb.co/CvFTb58/cat-bg-small.png"); */
+    background: #cccccc url("https://i.ibb.co/MPJ4Vr3/cat-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.banner-intro__title {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 62px;
+    font-weight: 700;
+    width: 970px;
+    margin: 0 auto 60px;
+    letter-spacing: 0.01em;
+}
+
+.banner-intro__info {
+    background-color: #ffffff;
+    padding-bottom: 48px;
+    width: 600px;
+    margin: 0 auto 85px;
+    border-radius: 20px 120px 20px 120px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(172, 224, 249, 0.60);
+}
+
+.banner-intro__product-img {
+    width: 100%;
+    height: 350px;
+}
+
+.banner-intro__product-inner {
+    padding: 45px 45px 50px;
+}
+
+.banner-intro__product-title {
+    color: #444444;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.banner-intro__product-text {
+    color: #444444;
+    font-size: 20px;
+    line-height: 26px;
+    width: 400px;
+    margin: 0 auto 36px;
+    text-align: center;
+}
+
+.banner-intro__product-price {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    display: block;
+    text-align: right;
+}
+
+.banner-intro__link {
+    color: #444444;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    display: block;
+    background-image: linear-gradient(270deg, #FFF1EB 0.07%, #ACE0F9 96.24%);
+    width: 376px;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding: 21px 58px;
+    border-radius: 30px;
+}
+
+.banner-intro__note {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}

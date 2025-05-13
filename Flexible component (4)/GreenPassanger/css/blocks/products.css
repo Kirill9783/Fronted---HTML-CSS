@@ -1,0 +1,20 @@
+.products {
+  margin: 0 0 70px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px 30px;
+}
+
+.products--full {
+  gap: 70px;
+}
+
+.products--full .products__item {
+  width: 100%;
+}
+
+.products__item {
+  width: calc((100% / 3) - (60px / 3));
+}
