@@ -1,0 +1,40 @@
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: flex-end;
+  gap: 20px 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @include vp-1023 {
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+
+  @include vp-767 {
+    align-self: inherit;
+    gap: 32px;
+  }
+
+  &__item:hover .socials__icon {
+    color: $color-ecru-white;
+  }
+
+  &__item:focus-visible .socials__icon {
+    color: $color-ecru-white;
+  }
+
+  &__link {
+    display: flex;
+    color: $color-trout;
+  }
+
+  &__icon {
+    @include vp-1023 {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
