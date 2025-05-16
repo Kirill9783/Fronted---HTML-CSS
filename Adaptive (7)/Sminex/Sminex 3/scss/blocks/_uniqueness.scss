@@ -1,0 +1,119 @@
+.uniqueness {
+  padding: 80px 0 0;
+
+  @include vp-1023 {
+    padding: 75px 0 0;
+  }
+
+  @include vp-767 {
+    padding: 62px 0 0;
+  }
+
+  &__wrapper {
+    column-gap: 220px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 420px 360px;
+
+    @include vp-1023 {
+      column-gap: 88px;
+      grid-template-columns: 340px 300px;
+    }
+
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__top {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 57px;
+
+    @include vp-1023 {
+      margin: 0 0 82px;
+    }
+
+    @include vp-767 {
+      margin: 0 0 60px;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    @include vp-1023 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    @include vp-767 {
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0 0 32px;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    margin: 0 0 32px;
+    pointer-events: none;
+
+    @include vp-1023 {
+      width: 50px;
+      height: 8px;
+      margin: 0 0 34px;
+    }
+
+    @include vp-767 {
+      margin: 0 0 24px;
+    }
+  }
+
+  &__description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    width: 620px;
+
+    @include vp-1023 {
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+    }
+
+    @include vp-767 {
+      margin: 0;
+      font-size: 14px;
+      line-height: 20px;
+      width: 345px;
+    }
+  }
+
+  &__heading {
+    margin: 0 0 24px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    font-family: $ff-ardeco;
+
+    @include vp-1023 {
+      font-size: 46px;
+      line-height: 46px;
+      margin: 0 0 20px;
+    }
+
+    @include vp-767 {
+      margin: 0 0 16px;
+      font-size: 36px;
+      line-height: 34px;
+    }
+  }
+}
