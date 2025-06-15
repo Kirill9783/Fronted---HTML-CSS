@@ -1,0 +1,66 @@
+.card-privileges {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 20px 28px;
+  background-color: $color-solitude-1;
+  border-radius: 12px;
+  min-height: 200px;
+  height: 100%;
+
+  @include vp-768 {
+    min-height: 280px;
+    padding: 24px 24px 26px;
+    gap: 11px;
+  }
+
+  @include vp-1024 {
+    background-color: transparent;
+    padding: 0 2px;
+  }
+
+  &__icon {
+    @include vp-1024 {
+      color: $color-white;
+      background-color: $color-royal-blue-1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      margin: 0 auto 9px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    @include vp-1024 {
+      font-size: 24px;
+      line-height: 28px;
+      margin: 0 0 6px;
+      text-align: center;
+    }
+  }
+
+  &__describe {
+    margin: 0;
+    color: $color-storm-grey-3;
+    font-size: 14px;
+    line-height: 18px;
+
+    @include vp-1024 {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+    }
+  }
+
+  &__link {
+    color: $color-royal-blue-1;
+  }
+}

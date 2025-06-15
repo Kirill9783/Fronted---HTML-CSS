@@ -1,0 +1,33 @@
+.search {
+  &__form {
+    @include vp-1024 {
+      width: 806px;
+      display: flex;
+      gap: 16px;
+      margin: 0 auto;
+    }
+
+    &--header {
+      margin: 0 0 19px;
+      width: 100%;
+    }
+
+    &--empty {
+      margin: 0 0 19px;
+
+      @include vp-1024 {
+        margin: 0 auto 19px;
+      }
+    }
+  }
+
+  &__btn {
+    width: 110px;
+    height: 56px;
+    display: none;
+
+    @include vp-1024 {
+      display: flex;
+    }
+  }
+}

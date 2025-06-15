@@ -1,0 +1,84 @@
+.cookie {
+  width: 330px;
+  min-height: 96px;
+  box-shadow: 0 6px 20px 0 rgba(50, 54, 65, 0.2);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  gap: 32px;
+  position: relative;
+  //right: 15px;
+  //bottom: 119px;
+  background-color: #FFFFFF;
+  z-index: 10;
+
+  @include vp-768 {
+    width: 380px;
+    min-height: 116px;
+    padding: 16px;
+    //right: 20px;
+    //bottom: 20px;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 10px;
+    line-height: 12px;
+    width: 250px;
+
+    @include vp-768 {
+      width: 284px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    @include vp-1024 {
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+    &::after {
+      content: "";
+      height: 72px;
+      width: 1px;
+      background-color: $color-hawkes-blue;
+      position: absolute;
+      top: 13px;
+      right: 51px;
+
+      @include vp-768 {
+        height: 84px;
+        top: 15px;
+        right: 63px;
+      }
+
+      @include vp-1024 {
+        height: 108px;
+      }
+    }
+  }
+
+  &__btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+
+    @include vp-768 {
+      right: 20px;
+    }
+  }
+
+  .custom-search__icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__link {
+    color: $color-royal-blue-1;
+  }
+}

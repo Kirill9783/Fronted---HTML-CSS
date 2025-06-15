@@ -1,0 +1,102 @@
+.debit-card {
+  padding: 60px 0 60px;
+
+  @include vp-1024 {
+    padding: 100px 0 100px;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      width: 100vw;
+      height: 2px;
+      background-color: $color-royal-blue-1;
+      position: absolute;
+      top: 143px;
+      left: 0;
+      z-index: -1;
+    }
+
+    @include vp-1304 {
+      padding: 120px 0 120px;
+
+      &::after {
+        top: 161px;
+      }
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+
+    @include vp-768 {
+      font-size: 28px;
+    }
+
+    @include vp-1024 {
+      text-align: center;
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: -0.04em;
+      width: 735px;
+      margin: 0 auto 20px;
+      background-color: $color-white;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-storm-grey-1;
+    margin: 0 0 28px;
+    display: block;
+
+    @include vp-768 {
+      margin: 0 0 32px;
+    }
+
+    @include vp-1024 {
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      margin: 0 0 60px;
+    }
+
+    @include vp-1304 {
+      margin: 0 0 80px;
+    }
+  }
+
+  &__list {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    gap: 12px;
+
+    @include vp-768 {
+      grid-template-columns: repeat(auto-fit, minmax(234px, 1fr));
+      margin: 0 0 75px;
+    }
+    
+    @media (min-width: 1012px) {
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    }
+
+    @include vp-1024 {
+      grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+      gap: 24px;
+      margin: 0 0 68px;
+    }
+
+    @include vp-1304 {
+      gap: 0 24px;
+      grid-template-columns: repeat(auto-fit, minmax(392px, 1fr));
+      margin: 0 0 58px;
+    }
+  }
+}

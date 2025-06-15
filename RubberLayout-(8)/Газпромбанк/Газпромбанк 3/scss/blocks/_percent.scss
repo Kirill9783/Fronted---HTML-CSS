@@ -1,0 +1,73 @@
+.percent {
+
+  &__list {
+    margin: 0;
+    padding: 20px 21px;
+    box-shadow: 0 4px 20px 0 #141A2B29;
+    list-style-type: none;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @include vp-768 {
+      padding: 24px;
+      gap: 25px;
+    }
+
+    @include vp-1024 {
+      flex-direction: row;
+      box-shadow: none;
+      gap: 25px;
+      align-items: center;
+      padding: 0;
+    }
+  }
+
+  &__item {
+    @include vp-1024 {
+      background-color: $color-solitude-1;
+      border-radius: 16px;
+      width: calc(100% - 50px/3);
+      min-height: 144px;
+      padding: 32px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include vp-1304 {
+        min-height: 122px;
+      }
+    }
+  }
+
+  &__title {
+    margin: 0 0 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    @include vp-1024 {
+      text-align: center;
+      font-size: 24px;
+      line-height: 28px;
+      margin: 0 0 8px;
+    }
+  }
+
+  &__describe {
+    font-size: 14px;
+    line-height: 18px;
+    color: $color-storm-grey-1;
+    margin: 0;
+
+    @include vp-768 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    @include vp-1024 {
+      text-align: center;
+    }
+  }
+}

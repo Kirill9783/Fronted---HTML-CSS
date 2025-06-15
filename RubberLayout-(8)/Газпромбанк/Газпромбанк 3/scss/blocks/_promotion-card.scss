@@ -1,0 +1,63 @@
+.promotion-card {
+  padding: 8px 0 8px 20px;
+  background-color: $color-alice-blue;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1fr 125px;
+  min-height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  position: relative;
+
+  @include vp-768 {
+    padding: 25px 24px;
+  }
+
+  @include vp-1024 {
+    min-height: 154px;
+    padding: 48px 100px;
+  }
+
+  @include vp-1304 {
+    padding: 48px 120px;
+  }
+
+  &__title {
+    margin: 0 0 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    @include vp-1024 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  &__describe {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+
+    @include vp-1024 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  &__image {
+    width: unset;
+
+    @include vp-768 {
+      max-width: none;
+      position: absolute;
+      top: -16px;
+      right: 40px;
+    }
+
+    @include vp-1304 {
+      right: 183px;
+    }
+  }
+}

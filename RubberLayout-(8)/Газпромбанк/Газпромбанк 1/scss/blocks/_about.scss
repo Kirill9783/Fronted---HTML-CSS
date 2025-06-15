@@ -1,0 +1,88 @@
+.about {
+  overflow: hidden;
+  padding: 40px 0 60px 0;
+
+  @include vp-768 {
+    padding-bottom: 80px;
+  }
+
+  @include vp-1024 {
+    padding: 43px 0 100px 0;
+  }
+
+  @include vp-1304 {
+    padding-bottom: 130px;
+  }
+
+  &__title {
+    position: relative;
+    margin: 0 0 40px 0;
+    padding: 0 0 28px 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+
+    @include vp-768 {
+      font-size: 32px;
+      line-height: 36px;
+      margin: 0 0 62px;
+    }
+
+    @include vp-1024 {
+      font-size: 40px;
+      line-height: 44px;
+      padding: 0 0 37px 0;
+      margin: 0 0 80px;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: 50%;
+      bottom: 0;
+      width: 100vw;
+      height: 1px;
+      transform: translate3d(-50%, 0, 0);
+      background-color: $color-hawkes-blue;
+    }
+  }
+
+  &__main-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    display: grid;
+    gap: 20px;
+
+    @include vp-768 {
+      gap: 24px;
+    }
+
+    @include vp-1024 {
+      margin: 0 0 16px;
+    }
+
+    @include vp-1304 {
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 24px;
+
+    @include vp-1024 {
+      grid-template-columns: repeat(auto-fit, minmax(462px, 1fr));
+      gap: 20px;
+    }
+
+    @include vp-1304 {
+      grid-template-columns: repeat(auto-fit, minmax(392px, 1fr));
+      gap: 24px;
+    }
+
+  }
+}

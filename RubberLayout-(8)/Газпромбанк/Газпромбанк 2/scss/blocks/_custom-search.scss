@@ -1,0 +1,62 @@
+.custom-search {
+  position: relative;
+  width: 100%;
+
+  &__field {
+    font-family: $ff-main;
+    padding: 16px 80px 16px 16px;
+    border: 1px solid $color-periwinkle;
+    border-radius: 8px;
+    color: $color-black-russian;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    outline: none;
+
+    &:hover {
+      border: 1px solid $color-manatee;
+    }
+
+    &:focus-visible {
+      border: 1px solid $color-royal-blue-1;
+    }
+
+    @include vp-768 {
+      padding: 19px 80px 19px 20px;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include vp-768 {
+      gap: 16px;
+      right: 21px;
+    }
+
+    @include vp-1024 {
+      top: 30px;
+    }
+  }
+
+  &__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  &__icon {
+    color: $color-mischka;
+
+    &:hover,
+    &:focus-visible {
+     color: $color-royal-blue-1;
+    }
+  }
+}

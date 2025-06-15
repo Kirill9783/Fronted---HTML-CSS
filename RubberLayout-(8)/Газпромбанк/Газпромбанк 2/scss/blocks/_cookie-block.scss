@@ -1,0 +1,14 @@
+.cookie-block {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: end;
+  min-height: 212px;
+
+  @include vp-768 {
+    right: 20px;
+  }
+}
