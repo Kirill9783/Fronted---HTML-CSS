@@ -1,0 +1,53 @@
+.custom-checkbox {
+  $root: &;
+
+  &__label:hover::before {
+    border-color: rgba(71, 80, 9, 0.70);
+  }
+
+  &__field:focus-visible + .custom-checkbox__label::before {
+    border-color: #502198;
+  }
+
+  .custom-checkbox__field:hover + .custom-checkbox__label  {
+    color: $color-jaguar;
+  }
+
+  &__field:checked + #{$root}__label::after {
+    display: block;
+  }
+
+  &__label {
+    position: relative;
+    padding: 0 0 0 19px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgba($color-jaguar, 0.3);
+    transition: color $transition-300;
+
+    &::before {
+      content: "";
+      height: 12px;
+      width: 12px;
+      border: 1px solid $color-jaguar;
+      display: flex;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: border-color $transition-300;
+    }
+
+    &::after {
+      content: "";
+      height: 8px;
+      width: 8px;
+      background-color: $color-jaguar;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 2px;
+      display: none;
+    }
+  }
+}
