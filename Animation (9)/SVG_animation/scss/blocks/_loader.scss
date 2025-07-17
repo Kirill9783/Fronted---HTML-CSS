@@ -1,0 +1,40 @@
+.page {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 80px;
+  gap: 80px;
+}
+
+.slider-button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+
+  &__icon {
+    width: 400px;
+    height: 400px;
+    overflow: visible;
+    padding: 50px;
+  }
+
+  &__progress {
+    stroke: #ba0c2e;
+    stroke-dasharray: 251;
+    stroke-dashoffset: 251;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    animation: circle-border 9s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes circle-border {
+  0% {
+    stroke-dashoffset: 251;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

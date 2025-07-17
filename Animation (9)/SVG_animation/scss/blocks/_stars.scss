@@ -1,0 +1,41 @@
+.page {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 80px;
+  gap: 80px;
+}
+
+.space {
+  width: 500px;
+  height: 500px;
+  // opacity: 0.5;
+
+  //   transition: opacity 0.3s ease-in;
+
+  //   &:hover {
+  //     opacity: 1;
+  //   }
+
+  &__star {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in, stroke 0.3s ease-in;
+
+    &:hover {
+      opacity: 1;
+      stroke: #f1fa84;
+    }
+  }
+
+  &__planet {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in, fill 0.3s ease-in;
+
+    &:hover {
+      opacity: 1;
+      fill: #e8cf5c;
+    }
+  }
+}
