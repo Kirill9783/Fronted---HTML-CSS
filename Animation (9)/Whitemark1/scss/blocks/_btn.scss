@@ -1,0 +1,86 @@
+.btn {
+  $root: &;
+
+  position: relative;
+  background-color: transparent;
+  border: 1px solid $color-black;
+  cursor: pointer;
+  width: 240px;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-black;
+  display: flex;
+  justify-content: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    transition: clip-path $transition-300;
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+  }
+
+  &:hover:not(.btn--plus, .btn--icon) {
+    &::before {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }}
+
+  &:not(.btn--plus, .btn--icon) {
+    #{$root}__text {
+      color: $color-white;
+      mix-blend-mode: difference;
+    }
+  }
+
+  &--plus {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    gap: 20px;
+    font-size: 20px;
+    line-height: 24px;
+
+    #{$root}__icon {
+      height: 32px;
+      width: 32px;
+      transition: transform $transition-300;
+    }
+
+    &:hover,
+    &:focus-visible {
+      #{$root}__icon {
+        transform: scale(1.25) rotate(90deg);
+      }
+    }
+  }
+
+  &--icon {
+    border-radius: 50%;
+    border: none;
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    background-color: $color-black-20;
+    transition: transform $transition-300, background-color $transition-300;
+
+    &:hover,
+    &:focus-visible {
+      transform: scale(1.33);
+      background-color: $color-black;
+    }
+  }
+
+  &__text {
+    z-index: 10;
+    color: $color-black;
+  }
+}

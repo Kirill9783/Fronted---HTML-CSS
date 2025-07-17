@@ -1,0 +1,36 @@
+.social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-verdun-green;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    transition: background-color $transition-300;
+  
+    &:hover {
+      background-color: $color-verdun-green-70;
+
+      .social__icon {
+        transform: translateY(-3px);
+      }
+    }
+  
+    &:focus-visible {
+      background-color: $color-daisy-bush;
+      outline: none;
+    }
+  }
+
+  &__icon {
+    transition: transform $transition-300;
+  }
+}

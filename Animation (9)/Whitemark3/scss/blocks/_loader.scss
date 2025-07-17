@@ -1,0 +1,242 @@
+.loader {
+  background-color: $color-black;
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation: loaderFadeIn 1s ease-in forwards 20s;
+
+  &__loading-line {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 280px;
+    border-radius: 60px;
+    background-color: $color-charcoal;
+
+    &--white {
+      background-color: $color-white;
+      opacity: 0;
+
+      animation: loadingLine 20s linear forwards;
+    }
+  }
+
+  &__sminex {
+    width: 163px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 5.6s;
+  }
+
+  &__alcon {
+    width: 86px;
+    height: 125px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 3.2s;
+  }
+
+  &__coldy {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 4s;
+  }
+
+  &__city {
+    width: 136px;
+    height: 87px;
+    position: absolute;
+    top: 70px;
+    left: 1440px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards;
+  }
+
+  &__afi {
+    width: 136px;
+    height: 87px;
+    position: absolute;
+    top: 0;
+    left: 578px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 7.2s;
+  }
+
+  &__whitemark {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: scale(8);
+    opacity: 0;
+
+    animation: whitemarkZoomOut 8s linear forwards 13s;
+  }
+
+  &__etalon {
+    width: 88px;
+    height: 16px;
+    position: absolute;
+    top: 352px;
+    left: 0;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 0.8s;
+  }
+
+  &__aeon {
+    width: 65px;
+    height: 69px;
+    position: absolute;
+    top: 343px;
+    left: 1300px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 8s;
+  }
+
+  &__forma {
+    width: 100px;
+    height: 29px;
+    position: absolute;
+    top: 800px;
+    left: 900px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 4.8s;
+  }
+
+  &__gals {
+    width: 122px;
+    height: 37px;
+    position: absolute;
+    top: 800px;
+    left: 350px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 1.6s;
+  }
+
+  &__snegiri {
+    width: 142px;
+    height: 36px;
+    position: absolute;
+    top: 800px;
+    left: 1200px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 8.8s;
+  }
+
+  &__veren {
+    width: 155px;
+    height: 54px;
+    position: absolute;
+    top: 800px;
+    left: 0;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 6.4s;
+  }
+
+  &__ingrad {
+    width: 149px;
+    height: 74px;
+    position: fixed;
+    top: 750px;
+    left: 1200px;
+    opacity: 0;
+
+    animation: logoSlide 5s linear forwards 2.4s;
+  }
+}
+
+@keyframes logoSlide {
+  0% {
+    transform: scale(1.5);
+    opacity: 0;
+    filter: blur(5px);
+  }
+  30% {
+    transform: scale(1);
+    opacity: 1;
+    filter: none;
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@keyframes whitemarkZoomOut {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+    transform: scale(8);
+  }
+  20% {
+    opacity: 1;
+    filter: none;
+    transform: scale(1);
+  }
+  35% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes loaderFadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+}
+
+@keyframes loadingLine {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    opacity: 0;
+  }
+  100% {
+    background-color: $color-white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 1;
+  }
+}

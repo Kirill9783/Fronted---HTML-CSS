@@ -1,0 +1,64 @@
+.burger {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  $root: &;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: clip-path $transition-300;
+
+  &:hover,
+  &:focus-visible {
+    clip-path: polygon(10% 0, 90% 0, 90% 100%, 10% 100%);
+  }
+
+  .header--open & {
+
+    &__menu {
+      background-color: transparent;
+
+      &::after {
+        top: 0;
+        transform: translate(-50%, 0) rotate(45deg);
+        transition: top ease-in 0.3s, transform ease-in 0.3s 0.3s;
+      }
+
+      &::before {
+        top: 0;
+        transform: translate(-50%, 0) rotate(-45deg);
+        transition: top ease-in 0.3s, transform ease-in 0.3s 0.3s;
+      }
+    }
+  }
+
+  &__menu {
+    position: relative;
+
+    &::before,
+    &::after {
+      background-color: $color-black;
+      content: "";
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      top: -3px;
+      transform: translate(-50%, 0);
+      width: 32px;
+    }
+
+    &::before {
+      transition: top ease-in 0.3s 0.3s, transform ease-in 0.3s;
+    }
+
+    &::after {
+      transition: top ease-in 0.3s 0.3s, transform ease-in 0.3s;
+      top: 3px;
+    }
+  }
+}
